@@ -1,0 +1,13 @@
+# Pinned to versions verified working together on Python 3.12 (macOS arm64), 2026-10.
+# Install into a 3.12 venv:  pip install -r requirements.txt
+#
+# NOTE: mediapipe 1.x removed the legacy `mp.solutions.face_mesh` API.
+# We use the Tasks API (mediapipe.tasks.python.vision.FaceLandmarker),
+# which needs the model bundle models/face_landmarker.task (see README).
+
+numpy==2.5.4
+scipy==1.18.1
+opencv-python==5.0.0.93
+mediapipe==1.1.0
+matplotlib==3.11.2
+pandas==3.0.6

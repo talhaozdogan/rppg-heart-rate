@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Data & model artifacts (large / not redistributable)
+data/
+models/*.task
+recordings/
+
+# Results are regenerated; keep the folder, ignore heavy media
+results/*.mp4
+results/*.avi
+
+# OS
+.DS_Store

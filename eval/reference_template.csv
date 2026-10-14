@@ -1,0 +1,13 @@
+# Manual pulse-count reference log (Stage 3). Copy to recordings/reference.csv and fill in.
+# session_id  : the recording folder name under recordings/ (e.g. session_20261012_140000)
+# condition   : one of  resting | after_exercise | dim_light | head_movement
+# ref_hr_bpm  : (beats counted) * 60 / (seconds counted).  e.g. 34 beats in 30 s -> 68
+# t_sec       : seconds into the recording when you took the count (blank -> compared to session median)
+# notes       : anything useful (how you counted, conditions)
+# Tip: count your wrist/neck pulse for 30 s twice and average. For after_exercise,
+#      HR falls fast -- count ASAP and note t_sec so it matches the right moment.
+session_id,condition,ref_hr_bpm,t_sec,notes
+session_20261012_140000,resting,68,30,34 beats in 30s
+session_20261012_141000,after_exercise,120,15,counted immediately after stopping
+session_20261012_142000,dim_light,72,30,
+session_20261012_143000,head_movement,75,30,slow left-right turns
